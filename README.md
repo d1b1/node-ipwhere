@@ -1,4 +1,4 @@
-# JavaScript IPinfoDB.com API for Node.JS
+# JavaScript Geo IP API framework
 
 Node.js Geographic IP lookup framework.
 
