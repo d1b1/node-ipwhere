@@ -20,6 +20,9 @@ Request an IP to setup and use the API Service.
 
 ## Documentation
 
+This package implements the free open geo IP. No data file required. The accuracy of the lite version is not perfect, but provides
+decent country, state and city. 
+
 You can find the docs for the API of this client at [https://github.com/d1b1/node-ipinfodb/](https://github.com/d1b1/node-ipinfodb)
 
 ## Authentication
