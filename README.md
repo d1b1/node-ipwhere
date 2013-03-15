@@ -13,11 +13,9 @@ Node.js implimentation of the [IPInfoDB.com](http://www.ipinfodb.com/) lite GEO 
 This package implements the free open geo IP. No data file required. The accuracy of the lite version is not perfect, but provides
 decent country, state and city. To use this service, register on their site and store the api key in an enviroment variable.
 
-Register and request API Key, the [IPInfoDB.com Site](http://www.ipinfodb.com/)
-
-You can find the docs for the API of this client at [https://github.com/d1b1/node-ipinfodb/](https://github.com/d1b1/node-ipinfodb)
-
-Builds of the [enginkizil JQuery](https://github.com/enginkizil/jqIpLocation)
+* Register and request API Key, the [IPInfoDB.com Site](http://www.ipinfodb.com/)
+* You can find the docs for the API of this client at [https://github.com/d1b1/node-ipinfodb/](https://github.com/d1b1/node-ipinfodb)
+* Builds of the [enginkizil JQuery](https://github.com/enginkizil/jqIpLocation)
 
 ## Example
 
@@ -35,6 +33,8 @@ Print all followers of the user "mikedeboer" to the console.
     ip.city('213.243.4.20', function(err, data) {
        console.log('JSON Result (IPv4)', data);
     });
+
+    // Options: { format: 'json|xml|raw (defaults to JSON)' }
 
     ip.country('213.243.4.20', { format: 'raw' }, function(err, data) {
       console.log('Raw Result (IPv4)', data);
@@ -54,7 +54,6 @@ Print all followers of the user "mikedeboer" to the console.
       longitude: '28.9497',
       timeZone: '+02:00' 
     }
-
 
 ## LICENSE
 
