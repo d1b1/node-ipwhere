@@ -8,31 +8,16 @@ Node.js implimentation of the [IPInfoDB.com](http://www.ipinfodb.com/) lite GEO 
 
       $ npm install ipinfodb
 
-or
-
-  Install via git clone:
-
-      $ git clone git://github.com/d1b1/node-ipinfodb.git
-      $ cd node-ipinfodb
-      $ npm install
-
-Request an IP to setup and use the API Service.
-
 ## Documentation
 
 This package implements the free open geo IP. No data file required. The accuracy of the lite version is not perfect, but provides
-decent country, state and city. 
+decent country, state and city. To use this service, register on their site and store the api key in an enviroment variable.
+
+Register and request API Key, the [IPInfoDB.com Site](http://www.ipinfodb.com/)
 
 You can find the docs for the API of this client at [https://github.com/d1b1/node-ipinfodb/](https://github.com/d1b1/node-ipinfodb)
 
-## Authentication
-
-To use the IPINfoDB.com API you need an API key. 
-
-Additionally, the [IPInfoDB.com Site](http://www.ipinfodb.com/)
-
 Builds of the [enginkizil JQuery](https://github.com/enginkizil/jqIpLocation)
-
 
 ## Example
 
@@ -42,7 +27,7 @@ Print all followers of the user "mikedeboer" to the console.
 
     var ip = new ipinfodb({
         // required
-        apikey: "XXXXXXXXXXXX",
+        apikey: process.env.IFAPIDB_KEY, // "XXXXXXXXXXXXXX"
         // optional
         timeout: 5000
     });
