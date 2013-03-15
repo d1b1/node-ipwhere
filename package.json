@@ -1,12 +1,12 @@
 {
-  "name": "ipinfodb",
+  "name": "ipwhere",
   "version": "0.0.1",
-  "description": "Node.js implimentation of the IPInfoDB.com Geo IP API.",
+  "description": "Node.js Geo IP API framework.",
   "author": "Stephan Smith <Stephan.Smith.BC93@gmail.com>",
-  "homepage": "http://github.com/d1v1/node-ipinfodb",
+  "homepage": "http://github.com/d1v1/node-ipwhere",
   "repository": {
     "type": "git",
-    "url": "http://github.com/d1b1/node-ipinfodb.git"
+    "url": "https://github.com/d1b1/node-ipwhere.git"
   },
   "engine": {
     "node": ">=0.4.0"
@@ -20,8 +20,6 @@
   ],
   "dependencies": {
     "request": "~2.16.2",
-    "http": "0.0.0",
-    "libxmljs": "~0.7.1",
-    "libxml": "0.0.7"
+    "http": "0.0.0"
   }
 }

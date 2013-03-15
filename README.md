@@ -1,12 +1,17 @@
 # JavaScript IPinfoDB.com API for Node.JS
 
-Node.js implementation of the [IPInfoDB.com](http://www.ipinfodb.com/) lite GEO IP. 
+Node.js Geographic IP lookup framework.
+
+Services Implements:
+* [IPInfoDB.com](http://www.ipinfodb.com/) lite GEO IP. (Done)
+* [Hostip.info](http://api.hostip.info/get_html.php?ip=12.215.42.19) (Pending)
+* [LocatorHQ.com](http://api.locatorhq.com) (Pending)
 
 ## Installation
 
   Install with the Node.JS package manager [npm](http://npmjs.org/):
 
-      $ npm install ipinfodb
+      $ npm install ipwhere
 
 ## Documentation
 
@@ -18,11 +23,9 @@ decent country, state and city. To use this service, register on their site and 
 
 ## Example
 
-Print all followers of the user "mikedeboer" to the console.
+    var ipwhere = require("ipwhere");
 
-    var ipinfodb = require("ipinfodb");
-
-    var ip = new ipinfodb({
+    var ip = new ipwhere({
         // required
         apikey: process.env.IFAPIDB_KEY, // "XXXXXXXXXXXXXX"
         // optional
