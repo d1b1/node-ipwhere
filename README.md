@@ -1,6 +1,6 @@
 # JavaScript GitHub API for Node.JS
 
-Node.js implimentation of the IPInfoDB.com GEO IP. 
+Node.js implimentation of the [IPInfoDB.com](http://www.ipinfodb.com/) lite GEO IP. 
 
 ## Installation
 
@@ -28,6 +28,8 @@ To use the IPINfoDB.com API you need an API key.
 
 Additionally, the [IPInfoDB.com Site](http://www.ipinfodb.com/)
 
+Builds of the [enginkizil JQuery](https://github.com/enginkizil/jqIpLocation)
+
 
 ## Example
 
@@ -51,7 +53,7 @@ Print all followers of the user "mikedeboer" to the console.
     });
 
     // Sample Result
-    
+
     { statusCode: 'OK',
       statusMessage: '',
       ipAddress: '213.243.4.20',
