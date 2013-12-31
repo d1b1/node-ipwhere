@@ -1,6 +1,6 @@
 {
   "name": "ipwhere",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Node.js Geo IP API framework.",
   "author": "Stephan Smith <Stephan.Smith.BC93@gmail.com>",
   "homepage": "http://github.com/d1v1/node-ipwhere",
