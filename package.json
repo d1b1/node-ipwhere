@@ -1,6 +1,6 @@
 {
   "name": "ipwhere",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Node.js Geo IP API framework.",
   "author": "Stephan Smith <Stephan.Smith.BC93@gmail.com>",
   "homepage": "http://github.com/d1v1/node-ipwhere",
@@ -8,10 +8,6 @@
     "type": "git",
     "url": "https://github.com/d1b1/node-ipwhere.git"
   },
-  "engine": {
-    "node": ">=0.4.0"
-  },
-  "main": ".",
   "licenses": [
     {
       "type": "The MIT License",
