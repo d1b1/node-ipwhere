@@ -15,7 +15,6 @@
     }
   ],
   "dependencies": {
-    "request": "~2.16.2",
-    "http": "0.0.0"
+    "request": "~2.16.2"
   }
 }
